@@ -69,14 +69,14 @@ public class checkBinarySubtree
         T1.left.right = new Node(10);
         T1.right.left = new Node(4);
         T1.right.right = new Node(5);
-        T1.right.right.left = new Node(11);
-        T1.right.right.right = new Node(12);
-        
+	T1.left.left.left = new Node(6);
+        T1.left.left.right = new Node(13);
+		
         Node T2 = new Node(3);
         T2.left = new Node(4);
         T2.right = new Node(5);
         
-        if (subTree(T2, T2)) 
+        if (subTree(T1, T2)) 
         {
             System.out.print("Yes");
         }
