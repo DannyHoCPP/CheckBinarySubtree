@@ -60,9 +60,9 @@ public class checkBinarySubtree
 	}	
 	
 	public static void main(String[] args)
-    {
+    	{
 
-		Node T1 = new Node(1);
+	Node T1 = new Node(1);
         T1.left = new Node(2);
         T1.right = new Node(3);
         T1.left.left = new Node(9);
@@ -84,7 +84,6 @@ public class checkBinarySubtree
         {
             System.out.print("No");
         }
-    }
-	
+    }	
 }
 
